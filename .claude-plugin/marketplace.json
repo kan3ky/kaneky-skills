@@ -13,6 +13,14 @@
         "repo": "kan3ky/kaneky-agent-guardrails"
       },
       "description": "Claude Code skill for designing agent tool surfaces that fail safe — a capability that does not exist cannot be talked into firing."
+    },
+    {
+      "name": "kaneky-delegation",
+      "source": {
+        "source": "github",
+        "repo": "kan3ky/kaneky-delegation"
+      },
+      "description": "Delegated work is untrusted until you check it yourself, and the report is not the check."
     }
   ]
 }
