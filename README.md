@@ -2,12 +2,12 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 [![Claude Code](https://img.shields.io/badge/Claude%20Code-marketplace-6C4FF7)](https://docs.claude.com/en/docs/claude-code)
-[![Published](https://img.shields.io/badge/published-2%20of%2013-blue)](#the-skills)
+[![Published](https://img.shields.io/badge/published-3%20of%2013-blue)](#the-skills)
 [![Config](https://img.shields.io/badge/config-zero-brightgreen)](#install)
 
 Claude Code skills about **failures that look like success**.
 
-Thirteen are written; **two are published**. The rest are listed below without
+Thirteen are written; **three are published**. The rest are listed below without
 links, because a link to a repository that does not exist is the same defect
 these skills are about.
 
@@ -43,6 +43,7 @@ matches it.
 | kaneky-diagnosis <sub>not yet published</sub> | The symptom is nowhere near the cause. How to search when the obvious answer was already checked and was fine. |
 | kaneky-integrations <sub>not yet published</sub> | An empty result and a dead source look identical. Yours has to tell them apart, because the source will not. |
 | kaneky-auth <sub>not yet published</sub> | A control is only as good as where it is evaluated. Move it one hop and it stops being a control while still looking like one. |
+| kaneky-capability-honesty <sub>not yet published</sub> | A system's account of what it can do drifts from what it can do. A tool listed without its credential, an option selectable but unroutable, a feature announced at boot that its own filter can never reach. |
 
 ### Testing and verification
 
