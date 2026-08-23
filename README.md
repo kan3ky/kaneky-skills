@@ -2,7 +2,7 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 [![Claude Code](https://img.shields.io/badge/Claude%20Code-marketplace-6C4FF7)](https://docs.claude.com/en/docs/claude-code)
-[![Published](https://img.shields.io/badge/published-3%20of%2013-blue)](#the-skills)
+[![Published](https://img.shields.io/badge/skills-13-brightgreen)](#the-skills)
 [![Config](https://img.shields.io/badge/config-zero-brightgreen)](#install)
 
 Claude Code skills about **failures that look like success**.
@@ -39,34 +39,34 @@ matches it.
 
 | Skill | The failure it exists for |
 |---|---|
-| kaneky-gitops <sub>not yet published</sub> | The deploy reported success and the cluster is quietly wrong. Orphans after a decommission, secret paths that 403 silently, a tag that is not a version and not a deploy. |
-| kaneky-diagnosis <sub>not yet published</sub> | The symptom is nowhere near the cause. How to search when the obvious answer was already checked and was fine. |
-| kaneky-integrations <sub>not yet published</sub> | An empty result and a dead source look identical. Yours has to tell them apart, because the source will not. |
-| kaneky-auth <sub>not yet published</sub> | A control is only as good as where it is evaluated. Move it one hop and it stops being a control while still looking like one. |
-| kaneky-capability-honesty <sub>not yet published</sub> | A system's account of what it can do drifts from what it can do. A tool listed without its credential, an option selectable but unroutable, a feature announced at boot that its own filter can never reach. |
+| [kaneky-gitops](https://github.com/kan3ky/kaneky-gitops) | The deploy reported success and the cluster is quietly wrong. Orphans after a decommission, secret paths that 403 silently, a tag that is not a version and not a deploy. |
+| [kaneky-diagnosis](https://github.com/kan3ky/kaneky-diagnosis) | The symptom is nowhere near the cause. How to search when the obvious answer was already checked and was fine. |
+| [kaneky-integrations](https://github.com/kan3ky/kaneky-integrations) | An empty result and a dead source look identical. Yours has to tell them apart, because the source will not. |
+| [kaneky-auth](https://github.com/kan3ky/kaneky-auth) | A control is only as good as where it is evaluated. Move it one hop and it stops being a control while still looking like one. |
+| [kaneky-capability-honesty](https://github.com/kan3ky/kaneky-capability-honesty) | A system's account of what it can do drifts from what it can do. A tool listed without its credential, an option selectable but unroutable, a feature announced at boot that its own filter can never reach. |
 
 ### Testing and verification
 
 | Skill | The failure it exists for |
 |---|---|
 | [kaneky-e2e](https://github.com/kan3ky/kaneky-e2e) | The suite runs and gates nothing. Credential-free by construction, deterministic, honest about which build it tested. |
-| kaneky-visual-loop <sub>not yet published</sub> | An assertion checks what you thought to measure. Looking catches what you did not — and a still frame has blind spots of its own. |
+| [kaneky-visual-loop](https://github.com/kan3ky/kaneky-visual-loop) | An assertion checks what you thought to measure. Looking catches what you did not — and a still frame has blind spots of its own. |
 
 ### Building with models
 
 | Skill | The failure it exists for |
 |---|---|
 | [kaneky-agent-guardrails](https://github.com/kan3ky/kaneky-agent-guardrails) | A capability that does not exist cannot be talked into firing. Command policy, tool surfaces, escape hatches. |
-| kaneky-agent-memory <sub>not yet published</sub> | Every failure in a memory subsystem returns a plausible value instead of an error. |
-| kaneky-extraction <sub>not yet published</sub> | A model asked for a field will always return one. Fabrication and success are the same shape. |
-| kaneky-providers <sub>not yet published</sub> | A provider abstraction is a claim that two things are interchangeable, and every bug is that claim being false. |
+| [kaneky-agent-memory](https://github.com/kan3ky/kaneky-agent-memory) | Every failure in a memory subsystem returns a plausible value instead of an error. |
+| [kaneky-extraction](https://github.com/kan3ky/kaneky-extraction) | A model asked for a field will always return one. Fabrication and success are the same shape. |
+| [kaneky-providers](https://github.com/kan3ky/kaneky-providers) | A provider abstraction is a claim that two things are interchangeable, and every bug is that claim being false. |
 | [kaneky-delegation](https://github.com/kan3ky/kaneky-delegation) | Delegated work is untrusted until you check it yourself, and the report is not the check. |
 
 ### Data
 
 | Skill | The failure it exists for |
 |---|---|
-| kaneky-corpus <sub>not yet published</sub> | Past a few thousand records, a corpus's quality is exactly what your automated checks assert and nothing more. |
+| [kaneky-corpus](https://github.com/kan3ky/kaneky-corpus) | Past a few thousand records, a corpus's quality is exactly what your automated checks assert and nothing more. |
 
 ## Why they share a shape
 

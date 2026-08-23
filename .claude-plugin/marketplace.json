@@ -15,6 +15,38 @@
       "description": "Claude Code skill for designing agent tool surfaces that fail safe — a capability that does not exist cannot be talked into firing."
     },
     {
+      "name": "kaneky-agent-memory",
+      "source": {
+        "source": "github",
+        "repo": "kan3ky/kaneky-agent-memory"
+      },
+      "description": "Every failure in a memory subsystem returns a plausible value instead of an error."
+    },
+    {
+      "name": "kaneky-auth",
+      "source": {
+        "source": "github",
+        "repo": "kan3ky/kaneky-auth"
+      },
+      "description": "A control is only as good as where it is evaluated."
+    },
+    {
+      "name": "kaneky-capability-honesty",
+      "source": {
+        "source": "github",
+        "repo": "kan3ky/kaneky-capability-honesty"
+      },
+      "description": "A system's account of what it can do drifts from what it can do."
+    },
+    {
+      "name": "kaneky-corpus",
+      "source": {
+        "source": "github",
+        "repo": "kan3ky/kaneky-corpus"
+      },
+      "description": "A corpus's quality is exactly what your automated checks assert and nothing more."
+    },
+    {
       "name": "kaneky-delegation",
       "source": {
         "source": "github",
@@ -23,12 +55,60 @@
       "description": "Delegated work is untrusted until you check it yourself, and the report is not the check."
     },
     {
+      "name": "kaneky-diagnosis",
+      "source": {
+        "source": "github",
+        "repo": "kan3ky/kaneky-diagnosis"
+      },
+      "description": "The symptom is nowhere near the cause."
+    },
+    {
       "name": "kaneky-e2e",
       "source": {
         "source": "github",
         "repo": "kan3ky/kaneky-e2e"
       },
       "description": "The suite runs and gates nothing. Credential-free by construction, deterministic, honest about which build it tested."
+    },
+    {
+      "name": "kaneky-extraction",
+      "source": {
+        "source": "github",
+        "repo": "kan3ky/kaneky-extraction"
+      },
+      "description": "A model asked for a field will always return one."
+    },
+    {
+      "name": "kaneky-gitops",
+      "source": {
+        "source": "github",
+        "repo": "kan3ky/kaneky-gitops"
+      },
+      "description": "The deploy reported success and the cluster is quietly wrong."
+    },
+    {
+      "name": "kaneky-integrations",
+      "source": {
+        "source": "github",
+        "repo": "kan3ky/kaneky-integrations"
+      },
+      "description": "An empty result and a dead source look identical."
+    },
+    {
+      "name": "kaneky-providers",
+      "source": {
+        "source": "github",
+        "repo": "kan3ky/kaneky-providers"
+      },
+      "description": "A provider abstraction is a claim that two things are interchangeable."
+    },
+    {
+      "name": "kaneky-visual-loop",
+      "source": {
+        "source": "github",
+        "repo": "kan3ky/kaneky-visual-loop"
+      },
+      "description": "An assertion checks what you thought to measure; looking catches what you did not."
     }
   ]
 }
