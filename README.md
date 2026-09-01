@@ -2,14 +2,15 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 [![Claude Code](https://img.shields.io/badge/Claude%20Code-marketplace-6C4FF7)](https://docs.claude.com/en/docs/claude-code)
-[![Published](https://img.shields.io/badge/skills-13-brightgreen)](#the-skills)
+[![Published](https://img.shields.io/badge/skills-14-brightgreen)](#the-skills)
 [![Config](https://img.shields.io/badge/config-zero-brightgreen)](#install)
 
 Claude Code skills about **failures that look like success**.
 
-Thirteen are written; **three are published**. The rest are listed below without
-links, because a link to a repository that does not exist is the same defect
-these skills are about.
+Fourteen are written; **thirteen are published**. The unpublished one is listed
+below without a link, because a link to a repository that does not exist is the
+same defect these skills are about — and so is a count that has drifted from
+what is actually on GitHub, which is what this line said before it was checked.
 
 Not a tutorial collection. Every one is written from an incident where every
 check passed and the system was wrong anyway — Argo reporting `Synced` while the
