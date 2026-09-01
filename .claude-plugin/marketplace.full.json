@@ -101,5 +101,13 @@
       "source": "github",
       "repo": "kan3ky/kaneky-capability-honesty"
     }
+  },
+  {
+    "name": "kaneky-durable-execution",
+    "source": {
+      "source": "github",
+      "repo": "kan3ky/kaneky-durable-execution"
+    },
+    "description": "Claude Code skill for work that stops and resumes — a keyed replay cache is a claim that the code behind the key still computes the same thing."
   }
 ]
