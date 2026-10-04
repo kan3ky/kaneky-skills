@@ -109,5 +109,29 @@
       "repo": "kan3ky/kaneky-durable-execution"
     },
     "description": "Claude Code skill for work that stops and resumes — a keyed replay cache is a claim that the code behind the key still computes the same thing."
+  },
+  {
+    "name": "kaneky-simulation-honesty",
+    "source": {
+      "source": "github",
+      "repo": "kan3ky/kaneky-simulation-honesty"
+    },
+    "description": "Claude Code skill for auditing a simulation whose numbers inform a real decision — a result about the strategy, or a result about the harness?"
+  },
+  {
+    "name": "kaneky-source-to-sink",
+    "source": {
+      "source": "github",
+      "repo": "kan3ky/kaneky-source-to-sink"
+    },
+    "description": "Claude Code skill for security-reviewing a change by tracing every new input from its source to its sinks, with a triage step so constant-only diffs stay short."
+  },
+  {
+    "name": "kaneky-generative-media",
+    "source": {
+      "source": "github",
+      "repo": "kan3ky/kaneky-generative-media"
+    },
+    "description": "Claude Code skill for generation pipelines (audio, video, images): provider contracts that fail silently, judging output you cannot evaluate, reproducibility and series consistency."
   }
 ]

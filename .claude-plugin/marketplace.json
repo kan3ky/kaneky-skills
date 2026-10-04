@@ -63,6 +63,14 @@
       "description": "The symptom is nowhere near the cause."
     },
     {
+      "name": "kaneky-durable-execution",
+      "source": {
+        "source": "github",
+        "repo": "kan3ky/kaneky-durable-execution"
+      },
+      "description": "A keyed replay cache is a claim that the code behind the key still computes the same thing."
+    },
+    {
       "name": "kaneky-e2e",
       "source": {
         "source": "github",
@@ -77,6 +85,14 @@
         "repo": "kan3ky/kaneky-extraction"
       },
       "description": "A model asked for a field will always return one."
+    },
+    {
+      "name": "kaneky-generative-media",
+      "source": {
+        "source": "github",
+        "repo": "kan3ky/kaneky-generative-media"
+      },
+      "description": "Generation pipelines: providers that fail silently, output you cannot evaluate, reproducibility and series consistency."
     },
     {
       "name": "kaneky-gitops",
@@ -101,6 +117,22 @@
         "repo": "kan3ky/kaneky-providers"
       },
       "description": "A provider abstraction is a claim that two things are interchangeable."
+    },
+    {
+      "name": "kaneky-simulation-honesty",
+      "source": {
+        "source": "github",
+        "repo": "kan3ky/kaneky-simulation-honesty"
+      },
+      "description": "A simulation whose numbers inform a real decision — a result about the strategy, or about the harness?"
+    },
+    {
+      "name": "kaneky-source-to-sink",
+      "source": {
+        "source": "github",
+        "repo": "kan3ky/kaneky-source-to-sink"
+      },
+      "description": "Security-review a change by tracing every new input from its source to its sinks."
     },
     {
       "name": "kaneky-visual-loop",

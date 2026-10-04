@@ -2,15 +2,14 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 [![Claude Code](https://img.shields.io/badge/Claude%20Code-marketplace-6C4FF7)](https://docs.claude.com/en/docs/claude-code)
-[![Published](https://img.shields.io/badge/skills-14-brightgreen)](#the-skills)
+[![Published](https://img.shields.io/badge/skills-17-brightgreen)](#the-skills)
 [![Config](https://img.shields.io/badge/config-zero-brightgreen)](#install)
 
 Claude Code skills about **failures that look like success**.
 
-Fourteen are written; **thirteen are published**. The unpublished one is listed
-below without a link, because a link to a repository that does not exist is the
-same defect these skills are about — and so is a count that has drifted from
-what is actually on GitHub, which is what this line said before it was checked.
+Seventeen are written and **seventeen are published**. The count is checked
+against what is actually on GitHub, because a count that has drifted from
+reality is the same defect these skills are about.
 
 Not a tutorial collection. Every one is written from an incident where every
 check passed and the system was wrong anyway — Argo reporting `Synced` while the
@@ -45,6 +44,7 @@ matches it.
 | [kaneky-integrations](https://github.com/kan3ky/kaneky-integrations) | An empty result and a dead source look identical. Yours has to tell them apart, because the source will not. |
 | [kaneky-auth](https://github.com/kan3ky/kaneky-auth) | A control is only as good as where it is evaluated. Move it one hop and it stops being a control while still looking like one. |
 | [kaneky-capability-honesty](https://github.com/kan3ky/kaneky-capability-honesty) | A system's account of what it can do drifts from what it can do. A tool listed without its credential, an option selectable but unroutable, a feature announced at boot that its own filter can never reach. |
+| [kaneky-durable-execution](https://github.com/kan3ky/kaneky-durable-execution) | Work that stops and resumes. A keyed replay cache is a claim that the code behind the key still computes the same thing. |
 
 ### Testing and verification
 
@@ -52,6 +52,8 @@ matches it.
 |---|---|
 | [kaneky-e2e](https://github.com/kan3ky/kaneky-e2e) | The suite runs and gates nothing. Credential-free by construction, deterministic, honest about which build it tested. |
 | [kaneky-visual-loop](https://github.com/kan3ky/kaneky-visual-loop) | An assertion checks what you thought to measure. Looking catches what you did not — and a still frame has blind spots of its own. |
+| [kaneky-source-to-sink](https://github.com/kan3ky/kaneky-source-to-sink) | Security-reviewing a change by tracing each new input from its source to its sinks, with triage so constant-only diffs stay short. |
+| [kaneky-simulation-honesty](https://github.com/kan3ky/kaneky-simulation-honesty) | A simulation whose numbers inform a real decision — a result about the strategy, or a result about the harness? |
 
 ### Building with models
 
@@ -62,6 +64,7 @@ matches it.
 | [kaneky-extraction](https://github.com/kan3ky/kaneky-extraction) | A model asked for a field will always return one. Fabrication and success are the same shape. |
 | [kaneky-providers](https://github.com/kan3ky/kaneky-providers) | A provider abstraction is a claim that two things are interchangeable, and every bug is that claim being false. |
 | [kaneky-delegation](https://github.com/kan3ky/kaneky-delegation) | Delegated work is untrusted until you check it yourself, and the report is not the check. |
+| [kaneky-generative-media](https://github.com/kan3ky/kaneky-generative-media) | Generation pipelines: provider contracts that fail silently, judging output you cannot evaluate, reproducibility and series consistency. |
 
 ### Data
 
